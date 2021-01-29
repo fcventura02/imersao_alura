@@ -1,5 +1,8 @@
-import styled from 'styled-components'
-import { theme } from '../../../db.json'
+/* eslint-disable no-shadow */
+import styled from 'styled-components';
+import { theme } from '../../../db.json';
+
+// eslint-disable-next-line import/prefer-default-export
 export const Widget = styled.div`
   margin-top: 24px;
   margin-bottom:24px;
@@ -18,7 +21,7 @@ export const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
-`
+`;
 
 Widget.Header = styled.header`
   display: flex;
